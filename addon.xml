@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<addon id="plugin.video.lto.ltoplay"
+version="1.0.0"
+name="LTO Play"
+provider-name="@ltocatamarca">
+<requires>
+  <import addon="xbmc.python" version="2.20.0"/>
+</requires>
+<extension point="xbmc.python.pluginsource" library="main.py">
+  <provides>video</provides>
+</extension>
+<extension point="xbmc.addon.metadata">
+  <summary lang="en_GB">What happens in Las Tejas, now for Kodi.</summary>
+  <summary lang="es_AR">Lo que pasa en Las Tejas, ahora por Kodi.</summary>
+  <description lang="es_AR">Lo que pasa en Las Tejas, ahora para Kodi
+  </description>
+  <assets>
+    <icon>icon.webp</icon>
+    <fanart>fanart.png</fanart>
+  </assets>
+  <platform>all</platform>
+  <license>Apache License Version 2.0</license>
+  <source>https://github.com/ltocatamarca/plugin.video.lto.ltoplay</source>
+</extension>
+</addon>
